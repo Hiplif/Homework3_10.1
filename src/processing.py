@@ -14,4 +14,3 @@ def sort_by_date(list_of_dict: list[dict[str, Any]], reverse: bool = True) -> li
     """Функция которая возвращает новый список, отсортированный по дате"""
     new_sort_list = sorted(list_of_dict, key=lambda new_dict: new_dict["date"], reverse=reverse)
     return new_sort_list
-
